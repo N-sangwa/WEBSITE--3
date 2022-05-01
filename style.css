@@ -296,11 +296,13 @@ font-size: 150%;
      margin-left: 20%;
      font-size: 150%;
      color: rgba(63,17,0,255);  
+     margin-top: -4%;
  }
  .themp{
-    margin-left: 20%;
+    margin-left: 29%;
     font-size: 150%;
     color: rgba(63,17,0,255);  
+    margin-top: -10%;
  }
  .section4{
     background-color: rgba(255,255,255,255); 
@@ -360,26 +362,90 @@ font-size: 150%;
     
 .full{
     margin-left: 10%;
+
 }
+.text{
+
+}
+
 #fname{
-    border: 1px solid blueviolet;
+    border: 1px solid whitesmoke;
     border-width: 70%; 
     height: 30px;  
     width: 45%;
-    border-radius: 1px;  
-    /* padding-left:-4px; */
-    }
-.message{
-  
+    border-radius: 1px; 
+    background-color: rgb(238, 227, 224);
+    color:#ffffff;
 }
 .message{
-    margin-left: 11%;
+    margin-left: 10%;
+}
 
-}
-.messagebuton{
-    margin-left: 11%;
-    padding: 1.5% 2% 1.5% 2%;
-    border-radius: 30%;
+.sendmessagebuton{
+    margin-left: 10%;
+    padding: 2% 2% 2% 2%; 
+    border-radius: 28%;
     background-color: rgb(77, 77, 211);
     color:#ffffff;
 }
+.part1{
+    margin-left: 5%;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+}
+.proimage{
+   margin-left:-105%;
+   width: 175%;
+   height: 100%;
+  margin-top: -4%;
+}
+.fullservice{
+    display:flex;
+    border: 1px solid whitesmoke;
+    border-radius: 30%;
+    padding: 2% 1% 2% 2%;
+    width: 90%;
+    background-color: #fcf8fb;
+    margin-top: -2%;
+}
+.icon1{
+    margin-top: 4.3%;
+    border: 1px solid;
+    padding: 2% 4% 2% 4%; 
+   border-radius: 50%;
+   color: #ffffff;
+   font-size: x-large;
+   background-color: rgb(37, 150, 190);
+}
+.icon2{
+    margin-left: 1%;
+    color: #ffffff;
+    font-size: x-large;
+    background-color: rgba(88,95,251,255);
+    /* background-color:  rgba(255,199,0,255); */
+    border: 1px solid ;
+    padding: 2% 4% 2% 4%; 
+    border-radius: 50%;
+    color: #ffffff;
+
+}
+
+.tech{
+display: flex;
+}
+.thirdicon{
+    margin-left: 2%;
+    border: 1px solid black;
+    width: 2%;
+    margin-top: 3%;
+    border: 1px solid;
+    padding: 2% 4% 2% 4%; 
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: x-large;
+    background-color:  rgba(255,199,0,255);
+}
+
+
